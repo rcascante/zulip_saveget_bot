@@ -27,7 +27,7 @@ Simple Zulip bot that will save a given link with a given tag, and if you ask hi
     In my case I had problems with the PYTHONPATH so instead of `python3 ./tools/provision` I've created my owv venv 
         for the project:
         `mkvirtualenv -a project_name -p python3 project_name_venv`
-        `pip install py3-requitements.txt`and `pip install requirements.txt` in order to install all dependencies
+        `pip install-r py3-requitements.txt`and `pip install -r requirements.txt` in order to install all dependencies
 4. `source zulip-api-py3-venv/activate` it'll start the virtualenvironment
 5. `pip install peewee` for working with database
 
